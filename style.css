@@ -114,16 +114,16 @@ section {
             rgba(13, 54, 78, 0.97),
             rgba(13, 111, 125, 0.90)
         );
-    color: white;
+    color: #24303a;
 }
 
 #about h2 {
-    color: white;
+    color: #24303a;
 }
 
 #about p {
     text-align: justify;
-    color: white;
+    color: #24303a;
 }
 
 h2 {
