@@ -107,6 +107,10 @@ section {
     border-bottom: 1px solid #dfe5e8;
 }
 
+#about p {
+    text-align: justify;
+}
+
 h2 {
     margin-top: 0;
     color: #0d5668;
