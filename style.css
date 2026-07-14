@@ -38,9 +38,11 @@ body {
     background:
         linear-gradient(
             135deg,
-            rgba(13, 54, 78, 0.97),
-            rgba(13, 111, 125, 0.90)
-        );
+            rgba(13, 54, 78, 0.85),
+            rgba(13, 111, 125, 0.75)
+        ),
+        url('images/hero-bg.jpg') center/cover;
+    background-attachment: fixed;
     min-height: 520px;
 }
 
