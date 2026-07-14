@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24303a;
+    background: #f7f9fb;
+    line-height: 1.7;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 28px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 30px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    color: white;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(13, 54, 78, 0.97),
+            rgba(13, 111, 125, 0.90)
+        );
+    min-height: 520px;
+}
+
+.hero-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 30px 100px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.profile-picture {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin: 0 0 12px;
+    font-size: 3.2rem;
+    line-height: 1.1;
+}
+
+.subtitle {
+    max-width: 650px;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+    padding: 11px 22px;
+    border-radius: 7px;
+    background: white;
+    color: #0d5668;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button.secondary {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 30px 80px;
+}
+
+section {
+    padding: 65px 0;
+    border-bottom: 1px solid #dfe5e8;
+}
+
+h2 {
+    margin-top: 0;
+    color: #0d5668;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #263f4c;
+}
+
+.research-section {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.research-picture {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(20, 45, 60, 0.15);
+}
+
+.publication {
+    padding: 20px 24px;
+    margin: 20px 0;
+    background: white;
+    border-left: 5px solid #0d7a83;
+    border-radius: 5px;
+    box-shadow: 0 5px 18px rgba(25, 50, 65, 0.08);
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    color: #62717a;
+    background: #edf1f3;
+}
+
+@media (max-width: 750px) {
+    .navigation {
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .profile-picture {
+        width: 190px;
+        height: 190px;
+    }
+
+    .research-section {
+        grid-template-columns: 1fr;
+    }
+}
