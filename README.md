@@ -1,5 +1,5 @@
 nicolalore.github.io/
-├── index.html
+index.html
 ├── style.css
 └── images/
     ├── profile.jpg
