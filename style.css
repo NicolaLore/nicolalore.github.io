@@ -15,7 +15,8 @@ body {
             135deg,
             rgba(13, 54, 78, 0.85),
             rgba(13, 111, 125, 0.75)
-        );
+        ),
+        url('images/hero-bg.jpg') center/cover fixed;
     line-height: 1.7;
 }
 
@@ -161,7 +162,8 @@ footer {
             135deg,
             rgba(13, 54, 78, 0.85),
             rgba(13, 111, 125, 0.75)
-        );
+        ),
+        url('images/hero-bg.jpg') center/cover fixed;
 }
 
 @media (max-width: 750px) {
