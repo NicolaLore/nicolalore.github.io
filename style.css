@@ -131,14 +131,14 @@ h3 {
 
 .research-section {
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1fr 1.3fr;
     gap: 50px;
     align-items: center;
 }
 
 .research-picture {
     width: 100%;
-    max-height: 1200px;
+    max-height: 1600px;
     object-fit: cover;
     border-radius: 14px;
     box-shadow: 0 12px 30px rgba(20, 45, 60, 0.15);
