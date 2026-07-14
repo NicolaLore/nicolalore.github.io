@@ -107,8 +107,23 @@ section {
     border-bottom: 1px solid #dfe5e8;
 }
 
+#about {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(13, 54, 78, 0.97),
+            rgba(13, 111, 125, 0.90)
+        );
+    color: white;
+}
+
+#about h2 {
+    color: white;
+}
+
 #about p {
     text-align: justify;
+    color: white;
 }
 
 h2 {
