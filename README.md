@@ -1,4 +1,3 @@
-# nicolalore.github.io
 nicolalore.github.io/
 ├── index.html
 ├── style.css
