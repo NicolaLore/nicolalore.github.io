@@ -10,13 +10,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #24303a;
-    background:
-        linear-gradient(
-            135deg,
-            rgba(13, 54, 78, 0.85),
-            rgba(13, 111, 125, 0.75)
-        ),
-        url('images/hero-bg.jpg') center/cover fixed;
+    background: #f7f9fb;
     line-height: 1.7;
 }
 
@@ -157,13 +151,7 @@ footer {
     padding: 30px;
     text-align: center;
     color: #62717a;
-    background:
-        linear-gradient(
-            135deg,
-            rgba(13, 54, 78, 0.85),
-            rgba(13, 111, 125, 0.75)
-        ),
-        url('images/hero-bg.jpg') center/cover fixed;
+    background: #edf1f3;
 }
 
 @media (max-width: 750px) {
