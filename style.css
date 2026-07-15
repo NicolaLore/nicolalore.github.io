@@ -122,7 +122,7 @@ about {
 }
 
 about h2 {
-    color: #24303a;
+    color: white;
 }
 
 about p {
@@ -132,7 +132,7 @@ about p {
 
 h2 {
     margin-top: 0;
-    color: "white";
+    color: #24303a;
     font-size: 2rem;
 }
 
