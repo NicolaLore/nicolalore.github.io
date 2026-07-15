@@ -142,14 +142,14 @@ h3 {
 
 .research-section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.3fr;
     gap: 50px;
     align-items: center;
 }
 
 .research-picture {
-    width: 100%;
-    max-height: 1600px;
+    width: 1000%;
+    max-height: 5000px;
     object-fit: cover;
     border-radius: 24px;
     box-shadow: 0 12px 30px rgba(20, 45, 60, 0.15);
