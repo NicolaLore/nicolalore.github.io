@@ -142,8 +142,8 @@ h3 {
 
 .research-section {
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    gap: 10000px;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
     align-items: center;
 }
 
